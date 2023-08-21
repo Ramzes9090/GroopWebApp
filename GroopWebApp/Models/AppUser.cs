@@ -10,6 +10,5 @@ namespace GroopWebApp.Models
         public ICollection<Club> Clubs { get; set; }
         public ICollection<Race> Races { get; set; }
 
-
     }
 }
