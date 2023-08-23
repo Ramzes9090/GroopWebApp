@@ -33,7 +33,7 @@ namespace GroopWebApp.Repository
         public async Task<IEnumerable<Race>> GetAllRacesByCity(string city)
         {
             return await _context.Races.Where(c => c.Address.City.Contains(city)).ToListAsync();
-            
+             
         }
 
         public async Task<Race> GetByIdAsync(int id)
